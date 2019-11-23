@@ -1,0 +1,62 @@
+* {
+    --section-color: rgb(54, 54, 54);
+    --main-color: rgb(34, 96, 230);
+}
+
+nav {
+    opacity: 0.8;
+    border-bottom: 1px rgba(27, 168, 211, 0.9) solid;
+    font-size: 22px;
+}
+
+#home-section {
+    background: url("../img/nature1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    background: rgba(0,0,0,0.35); 
+    width: 100%;
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+#home-section .home-inner {
+    padding-top: 200px;
+}
+
+#home-section p {
+    font-size: 24px;
+}
+
+#home-section .card {
+    opacity: 0.6;
+}
+
+#aboutUs-section-header {
+    background: var(--section-color);
+}
+
+.fa-check {
+    color: white;
+    background: var(--main-color);
+}
+
+#gallery img {
+   width: 100%;
+   height: 100%;
+}
+
+#gallery img:hover {
+    filter: drop-shadow(5px 5px 15px blue)
+}
+
+#ourTeam .card:hover {
+    background: var(--main-color);
+    color: white;
+}
